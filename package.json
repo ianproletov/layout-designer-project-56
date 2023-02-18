@@ -1,0 +1,36 @@
+{
+  "name": "layout-designer-project-56",
+  "version": "1.0.0",
+  "description": "HTML and CSS hexlet 2nd pet project",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianproletov/layout-designer-project-56.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "hexlet"
+  ],
+  "author": "ian proletov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianproletov/layout-designer-project-56/issues"
+  },
+  "homepage": "https://github.com/ianproletov/layout-designer-project-56#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.1.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
+    "stylelint-order": "^6.0.2",
+    "stylelint-rational-order-plugin": "^1.0.2",
+    "stylelint-scss": "^4.4.0",
+    "surge": "^0.23.1"
+  }
+}
+
