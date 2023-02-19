@@ -4,7 +4,8 @@
   "description": "HTML and CSS hexlet 2nd pet project",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch src/scss/app.scss src/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -33,4 +34,3 @@
     "surge": "^0.23.1"
   }
 }
-
