@@ -3,6 +3,7 @@ install:
 
 lint:
 	npx stylelint ./src/scss/*.scss
+	npx stylelint ./src/css/*.css
 	npx htmlhint ./src/*.html
 
 deploy:
@@ -10,3 +11,5 @@ deploy:
 
 scss:
 	npm run scss
+	npx stylelint ./src/scss/*.scss --fix
+	npx stylelint ./src/css/*.css --fix

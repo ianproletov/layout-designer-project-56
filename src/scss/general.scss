@@ -17,11 +17,11 @@
 }
 
 body {
+  margin: 0 auto;
   color: #cacaca;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
   background: #08020d;
-  margin: 0 auto
 }
 
 h1 {
@@ -40,47 +40,55 @@ h2 {
 
 .header {
   position: absolute;
-  display: flex;
-  justify-content: center;
   top: 25px;
   right: 0;
-  font-size: 11px;
+  display: flex;
+  justify-content: center;
   color: white;
+  font-size: 11px;
   text-transform: uppercase;
+
   div {
-    width: 1200px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: flex-start;
+    width: 1200px;
+
     img {
       width: 24px;
       height: 24px;
       padding-right: 24px;
     }
+
     span {
       padding-right: 90px;
     }
+
     ul {
       display: flex;
+
       li {
         box-sizing: border-box;
-        list-style-type: none;
         padding-right: 24px;
+        list-style-type: none;
+
         a {
-          text-decoration: none;
           color: white;
+          text-decoration: none;
         }
       }
     }
+
     form {
       justify-self: flex-end;
+
       input {
-        border-radius: 50px;
-        border: none;
-        outline: none;
         padding: 5px 10px;
         color: #757575;
         background: #3C3B3D;
+        border: none;
+        border-radius: 50px;
+        outline: none;
       }
     }
   }
