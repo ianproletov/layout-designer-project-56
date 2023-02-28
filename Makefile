@@ -11,5 +11,7 @@ deploy:
 
 scss:
 	npm run scss
+
+fix:
 	npx stylelint ./src/scss/*.scss --fix
 	npx stylelint ./src/css/*.css --fix

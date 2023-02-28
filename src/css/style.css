@@ -3,19 +3,16 @@
   font-family: Roboto;
   src: url("fonts/Roboto-Regular.ttf");
 }
-
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   src: url("fonts/Roboto-Medium.ttf");
 }
-
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   src: url("fonts/Roboto-Bold.ttf");
 }
-
 body {
   margin: 0 auto;
   color: #cacaca;
@@ -24,74 +21,121 @@ body {
   background: #08020d;
 }
 
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
 h1 {
   font-weight: bold;
   font-size: 60px;
   line-height: 90px;
-  text-transform: uppercase;
 }
 
 h2 {
   font-weight: bold;
-  font-size: 39px;
+  font-size: 38px;
   line-height: 57px;
-  text-transform: uppercase;
 }
 
 .header {
   position: absolute;
   top: 25px;
   right: 0;
+  left: 0;
   display: flex;
+  align-items: 0;
   justify-content: center;
   color: white;
   font-size: 11px;
   text-transform: uppercase;
 }
-
 .header div {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 1200px;
 }
-
 .header div img {
   width: 24px;
   height: 24px;
   padding-right: 24px;
 }
-
 .header div span {
   padding-right: 90px;
 }
-
 .header div ul {
   display: flex;
 }
-
 .header div ul li {
   box-sizing: border-box;
   padding-right: 24px;
   list-style-type: none;
 }
-
 .header div ul li a {
   color: white;
   text-decoration: none;
 }
-
 .header div form {
-  justify-self: flex-end;
+  margin-left: auto;
 }
-
 .header div form input {
+  width: 245px;
   padding: 5px 10px;
   color: #757575;
   background: #3C3B3D;
   border: none;
   border-radius: 50px;
   outline: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0;
+  color: #FFF;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+.main form {
+  max-width: 570px;
+}
+.main form .inputs {
+  display: flex;
+  justify-content: space-between;
+}
+.main form .inputs input {
+  width: calc((100% - 24px) / 2);
+  min-width: 270px;
+  min-height: 50px;
+  margin-bottom: 1.5rem;
+  padding-left: 20px;
+  color: #FFF;
+  font-weight: 700;
+  background: none;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+}
+.main form .inputs input::placeholder {
+  color: #FFF;
+  font-weight: 700;
+}
+.main form button {
+  width: 570px;
+  height: 57px;
+  margin: 0;
+  padding: 20px 30px;
+  color: #FFF;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  background-color: #34C176;
+  border: none;
+  border-radius: 5px;
 }
 
 @media (max-width: 500px) {
@@ -101,7 +145,6 @@ h2 {
     line-height: 45px;
     text-transform: uppercase;
   }
-
   h2 {
     font-weight: bold;
     font-size: 18px;
@@ -109,3 +152,5 @@ h2 {
     text-transform: uppercase;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
